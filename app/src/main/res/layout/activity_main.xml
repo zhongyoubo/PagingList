@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <!--<com.zyb.paginglist.ChannelListView
+        android:id="@+id/channel_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+    </com.zyb.paginglist.ChannelListView>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="page"/>
+
+    <com.zyb.paginglist.Loading.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:loading_itemWidth="10dp"
+        app:loading_itemLength="20dp"
+        app:loading_itemCount="8"
+        app:loading_pathColor="#146c9d"
+        app:loading_isItemRect="false"
+        android:visibility="visible"/>
+
+
+</FrameLayout>

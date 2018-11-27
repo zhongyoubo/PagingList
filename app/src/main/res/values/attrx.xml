@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loading_pathColor" format="color"/>
+        <attr name="loading_itemLength" format="dimension"/>
+        <attr name="loading_itemWidth" format="dimension"/>
+        <attr name="loading_itemRadius" format="dimension"/>
+        <attr name="loading_itemCount" format="integer"/>
+        <attr name="loading_isItemRect" format="boolean"/>
+    </declare-styleable>
+
+</resources>
